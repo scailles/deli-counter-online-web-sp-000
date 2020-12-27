@@ -31,3 +31,4 @@ def now_serving(katz_deli)
   else "Now serving #{katz_deli.[0].join}."
 end
 end
+end
