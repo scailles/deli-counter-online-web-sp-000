@@ -8,7 +8,7 @@ def line(katz_deli)
     
   else 
     katz_deli.each do |name, index|
-      puts "#{index + 1}. #{name} "
+      puts "#{index+ 1}. #{name} "
     end
   end
   
