@@ -10,8 +10,7 @@ def line(katz_deli)
   else 
     katz_deli.each do |name, index|
       line_list << "#{index}. #{name} "
-    
-     puts line_list
   end
+  puts line_list.join
 end
 end
