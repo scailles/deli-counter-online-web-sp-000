@@ -28,7 +28,6 @@ def now_serving(katz_deli)
   if katz_deli.size = 0
     puts "The line is currently empty."
     
-  else "Now serving #{katz_deli.[0].join}."
-end
+  else "Now serving #{katz_deli[0].join}."
 end
 end
