@@ -11,6 +11,7 @@ def line(katz_deli)
     katz_deli.each do |name, index|
       line_list << "#{index}. #{name} "
     end
+    line_list
   end
   
 end
