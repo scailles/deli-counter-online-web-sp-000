@@ -8,7 +8,7 @@ def line(katz_deli)
     puts "The line is currently empty."
     
   else 
-    index = 1
+    index == 1
     katz_deli.each do |name, index|
       line_list << "#{index}. #{name} "
       index += 1
