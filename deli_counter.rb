@@ -19,6 +19,9 @@ end
 
 
 def take_a_number(katz_deli, name)
+  line = []
+  katz_deli.each do |name|
+    line << name
+  end
   
-  katz_deli << name
 end
