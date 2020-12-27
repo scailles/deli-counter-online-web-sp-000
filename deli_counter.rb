@@ -9,7 +9,7 @@ def line(katz_deli)
     
   else 
     index = 1
-    katz_deli.each do |name, index|
+    katz_deli.each do |name|
       line_list << "#{index}. #{name} "
       index + 1
   end
