@@ -26,7 +26,7 @@ end
   
 def now_serving(katz_deli)
   if katz_deli.empty?
-    puts "The line is currently empty."
+    puts "There is nobody waiting to be served!"
     
   else "Now serving #{katz_deli[0].join}."
 end
